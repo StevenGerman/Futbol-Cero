@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 9vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(4, 100%, 67%);
+    box-shadow: 0px 1px .1px rgb(0, 0, 0);
+
+  }
+  
+  h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #070101;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    width: 100%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(128,0,255,1) 100%);
+  }
+  
+  .card{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 800px;
+    height: 450px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 7px #070101;
+  }
+  .escudo{
+    background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 450px;
+  }
+  .escudo img{
+    object-fit: cover;
+    width: 400px;
+    height: 450px;
+  }
+  .resultado{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 400px;
+    height: 450px;
+    background: rgb(212,212,212);
+    background: radial-gradient(circle, rgba(212,212,212,1) 0%, rgba(255,255,255,1) 100%);
+  }
+  .EscLigArg{
+    background-color: #064e7c;   
+    width: 400px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .EscBandera{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #0ac8eb;
+    border-radius: 1px;
+}
+.linea{
+    background-color: white;
+    width: 50px;
+    height: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 1px;
+}
+.Bandera_texto {
+  font-family: 'Exo', sans-serif;
+  font-size: 22px;
+  color: white;
+  background-color: #0ac8eb;
+}
+.EscLogo{
+  margin-top: -4px;
+  width: 130px;
+  height: 142px;
+}
+.EscBorde{
+  background-color: #dba914;
+  width: 130px;
+  height: 142px;
+  clip-path: polygon(51% 100%,100% 70%,100% 0,0 0,0 70%);    
+}
+.EscPrincipal{
+  background-color: #f6d880;
+  width: 130px;
+  height: 142px;
+  clip-path: polygon(51% 92%,94% 66%,94% 6%,6% 6%,6% 66%);
+}
+.EscLetra{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 142px;
+  clip-path: polygon(51% 84%, 86% 62%, 86% 12%, 12% 12%, 12% 62%);
+}
+.LetraL{
+  position:absolute;
+  background-color: #064e7c;
+  width: 130px;
+  height: 142px;
+  clip-path: polygon(12% 12%, 20% 12%, 20% 52%, 82% 24%, 81% 32%, 12% 62%);
+}
+.LetraP1{
+  position: absolute;
+  background-color:#064e7c;
+  width: 130px;
+  height: 142px;
+  clip-path: polygon(37% 14%, 44% 14%, 44% 81%, 37% 76%);
+}
+.LetraP2{
+  position: absolute;
+  background-color:#064e7c;
+  width: 130px;
+  height: 142px;
+  clip-path: polygon(33% 18%, 28% 12%, 59% 12%, 59% 40%, 52% 42%, 52% 18%);
+}
+.LetraF{
+  position: absolute;
+  background-color: #064e7c;
+  width: 130px;
+  height: 110px;
+  clip-path: polygon(65% 16%, 85% 16%, 85% 24%, 72% 24%, 72% 95%, 65% 100%);
+}
+.TextoPrincipal{
+  margin-top: 6px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.TextoPrincipal p{
+  font-size: 3px;
+  color: #ffffff;
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+footer {
+  background-color: hsl(4, 100%, 67%);
+  display: flex;
+  height: 5vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+  
